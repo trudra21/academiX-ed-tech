@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AcademiX Enrollment Table</title>
+  <style>
+    table {
+      width: 80%;
+      margin: 20px auto;
+      border-collapse: separate;
+      border-spacing: 0;
+      border: 3px double black; /* Apply double border to the entire table */
+    }
+
+    th, td {
+      padding: 8px;
+      border-top: 1px solid black;
+      border-left: 1px solid black;
+    }
+
+    th {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo"><img src="../Multimedia/cover.png" width="250px" height="70px"/></a>
+        <h1>Admin Dashboard</h1>
+        <hr/>
+    </header>
+    <main>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="courses.html">Courses</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="admin.html">Admin</a>
+        </nav>
+
+  <h2 style="text-align: center;">List of Users</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th rowspan="2">User ID</th>
+        <th rowspan="2">Full Name</th>
+        <th rowspan="2">Email ID</th>
+        <th colspan="2">Enrolled Courses</th>
+      </tr>
+      <tr>
+        <th>Course ID</th>
+        <th>Course Title</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="2">001</td>
+        <td rowspan="2">Rahul Sharma</td>
+        <td rowspan="2">rahul.sharma@academix.com</td>
+        <td>WD101</td>
+        <td>Web Development</td>
+      </tr>
+      <tr>
+        <td>AD201</td>
+        <td>Android Development</td>
+      </tr>
+      <tr>
+        <td>002</td>
+        <td>Priya Gupta</td>
+        <td>priya.gupta@academix.com</td>
+        <td>DS301</td>
+        <td>Basics of Data Science</td>
+      </tr>
+      <tr>
+        <td>003</td>
+        <td>Arjun Reddy</td>
+        <td>arjun.reddy@academix.com</td>
+        <td>DM401</td>
+        <td>Digital Marketing</td>
+      </tr>
+      <tr>
+        <td rowspan="2">004</td>
+        <td rowspan="2">Sneha Patel</td>
+        <td rowspan="2">sneha.patel@academix.com</td>
+        <td>WD101</td>
+        <td>Web Development</td>
+      </tr>
+      <tr>
+        <td>DS301</td>
+        <td>Basics of Data Science</td>
+      </tr>
+      <tr>
+        <td>005</td>
+        <td>Ramesh Kumar</td>
+        <td>ramesh.kumar@academix.com</td>
+        <td>AD201</td>
+        <td>Android Development</td>
+      </tr>
+      <tr>
+        <td>006</td>
+        <td>Anjali Verma</td>
+        <td>anjali.verma@academix.com</td>
+        <td>WD101</td>
+        <td>Web Development</td>
+      </tr>
+      <tr>
+        <td>007</td>
+        <td>Vijay Singh</td>
+        <td>vijay.singh@academix.com</td>
+        <td>DM401</td>
+        <td>Digital Marketing</td>
+      </tr>
+      <tr>
+        <td>008</td>
+        <td>Neha Joshi</td>
+        <td>neha.joshi@academix.com</td>
+        <td>AD201</td>
+        <td>Android Development</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="5" style="text-align: center;">Total Number of Users Enrolled: 8</td>
+      </tr>
+    </tfoot>
+  </table>
+
+</body>
+</html>
